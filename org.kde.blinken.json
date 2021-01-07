@@ -21,8 +21,8 @@
             "sources": [
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/20.12.0/src/blinken-20.12.0.tar.xz",
-                    "sha256": "62fbe9d032bdda4dce5f5cb73b59dbef5baff324cbd45b4cb35e3e0e19695b1e" 
+                    "url": "https://download.kde.org/stable/release-service/20.12.1/src/blinken-20.12.1.tar.xz",
+                    "sha256": "7a76ddceb32fbb053f751d463c54e2b484ee0cc5fbece8cb384f854903acab15" 
                 }                 
             ]
         }
