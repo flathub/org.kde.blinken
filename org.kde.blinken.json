@@ -22,7 +22,13 @@
                 { 
                     "type": "archive", 
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/blinken-21.12.3.tar.xz",
-                    "sha256": "cccae6e860cd73427880a61d60b5640ca70e548e4f9836c398059c4bf0597cdd"
+                    "sha256": "cccae6e860cd73427880a61d60b5640ca70e548e4f9836c398059c4bf0597cdd",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/blinken-$version.tar.xz"
+                    }
                 }                 
             ]
         }
