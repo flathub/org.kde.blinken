@@ -6,30 +6,29 @@
     "command": "blinken",
     "rename-icon": "blinken",
     "finish-args": [
-        "--share=ipc", 
-        "--socket=x11", 
+        "--share=ipc",
+        "--socket=x11",
         "--socket=wayland",
         "--device=dri",
         "--socket=pulseaudio",
         "--share=network"
     ],
-
     "modules": [
         {
             "name": "blinken",
             "buildsystem": "cmake-ninja",
             "sources": [
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/blinken-21.12.3.tar.xz",
-                    "sha256": "cccae6e860cd73427880a61d60b5640ca70e548e4f9836c398059c4bf0597cdd",
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/blinken-22.04.0.tar.xz",
+                    "sha256": "c3c8d9c8c4e2754295aa8afba82c47dce6b4876749a7d94c77268a64cdbd6ba1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/blinken-$version.tar.xz"
                     }
-                }                 
+                }
             ]
         }
     ]
