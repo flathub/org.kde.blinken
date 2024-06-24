@@ -6,12 +6,12 @@
     "command": "blinken",
     "rename-icon": "blinken",
     "finish-args": [
-        "--share=ipc",
-        "--socket=fallback-x11",
-        "--socket=wayland",
         "--device=dri",
+        "--share=ipc",
+        "--share=network",
+        "--socket=fallback-x11",
         "--socket=pulseaudio",
-        "--share=network"
+        "--socket=wayland"
     ],
     "modules": [
         {
