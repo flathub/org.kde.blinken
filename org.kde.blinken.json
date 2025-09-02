@@ -13,6 +13,12 @@
         "--socket=pulseaudio",
         "--socket=wayland"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/*.la",
+        "/lib/cmake",
+        "/lib/pkgconfig"
+    ],
     "modules": [
         {
             "name": "ffmpeg",
