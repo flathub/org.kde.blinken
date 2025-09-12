@@ -13,6 +13,12 @@
         "--socket=pulseaudio",
         "--socket=wayland"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/*.la",
+        "/lib/cmake",
+        "/lib/pkgconfig"
+    ],
     "modules": [
         {
             "name": "ffmpeg",
@@ -38,6 +44,7 @@
         {
             "name": "phonon",
             "config-opts": [
+                "-DPHONON_BUILD_DESIGNER_PLUGIN=OFF",
                 "-DBUILD_TESTING=OFF",
                 "-DPHONON_BUILD_QT5=OFF",
                 "-DPHONON_BUILD_QT6=ON"
