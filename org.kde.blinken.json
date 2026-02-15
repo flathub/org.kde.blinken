@@ -17,7 +17,9 @@
         "/include",
         "/lib/*.la",
         "/lib/cmake",
-        "/lib/pkgconfig"
+        "/lib/pkgconfig",
+        "/share/doc",
+        "/share/man"
     ],
     "modules": [
         {
