@@ -102,6 +102,7 @@
                     "url": "https://download.kde.org/stable/release-service/25.12.2/src/blinken-25.12.2.tar.xz",
                     "sha256": "b8ec9aa974e2c8ccbd31a9c5ba5fd676c77eb71ce3dfe40e5e6297ee326df5aa",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
