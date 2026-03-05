@@ -28,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/blinken-25.12.2.tar.xz",
-                    "sha256": "b8ec9aa974e2c8ccbd31a9c5ba5fd676c77eb71ce3dfe40e5e6297ee326df5aa",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/blinken-25.12.3.tar.xz",
+                    "sha256": "b744aadafc3afaa10e602c57122c350a12280aa158c1559f925a639a439a7e37",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
